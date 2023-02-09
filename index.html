@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="misestilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> 
+    <!--<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+    <meta property="og:title" content="Mi Curriruculum">
+    <meta property="og:site_name" content="mipagina">
+    <meta property="og:url" content="mipagina.com.ar">
+    <meta property="og:description" content="Curriculum Vitae de Gustavo">
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div class="row grow w-100">
+        <div class="col-12 bg-dark text-white py-3">
+            <div class="row justify-content-start">
+                <div class="col-4 centerImage">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg" width="100" class="rounded float-start text-center" alt="imagen">
+                </div>
+                <div class="col-2">
+                    <h1 id="Titulo1">Curriculum</h1>
+                    <h3 id="Titulo2">Profesión</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 text-white py-3 mb-0 infor1">
+            <h4 id="Contacto">Contacto</h4>
+            <hr class="linea1">
+            <p><b id="Contacto1">correo</b></p>
+            <p><b id="Contacto2">telefono</b></p>
+            <p><b id="Contacto3">paginaweb</b></p>
+            <p><b id="Contacto4">twitter</b></p>
+            <p><b id="Contacto5">domicilio</b></p>
+            <h4 id="Perfil">Perfil</h4>
+            <hr class="linea1">
+            <p><b id="Perfil1">edad</b></p>
+            <p><b id="Perfil2">nacimiento</b></p>
+            <p><b id="Perfil3">localidad</b></p>
+            <p><b id="Perfil4">nacionalidad</b></p>
+            <b><h4 id="Idioma">Idioma</h4></b>
+            <hr class="linea1">
+            <p><b id="Idioma1">idioma</b></p>
+            <p><b id="Idioma2">idioma</b></p>
+        </div>
+        <div class="main col-8 bg-primary text-white h-100 py-3 mb-0">
+            <h4 id="Experiencia">Experiencia Laboral</h4>
+            <hr class="linea1">
+            <p><b id="Experiencia1a">Fecha1</b></p>
+            <p id="Experiencia1b">Datos1</p>
+            <hr class="linea1">
+            <p><b id="Experiencia2a">Fecha1</b></p>
+            <p id="Experiencia2b">Datos1</p>
+            <hr class="linea1">
+            <p><b id="Experiencia3a">Fecha1</b></p>
+            <p id="Experiencia3b">Datos1</p>
+            <hr class="linea1">
+            <p><b id="Experiencia4a">Fecha1</b></p>
+            <p id="Experiencia4b">Datos1</p>
+
+            <hr class="linea1">
+            <p></p>
+
+            <h4 id="Educacion">Educación</h4>
+            <hr class="linea1">
+            <p><b id="Educacion1a">Educación</b></p>
+            <p id="Educacion1b">Lugar</p>
+            <hr class="linea1">
+            <p><b id="Educacion2a">Educación</b></p>
+            <p id="Educacion2b">Lugar</p>
+            <hr class="linea1">
+            <p><b id="Educacion3a">Educación</b></p>
+            <p id="Educacion3b">Lugar</p>
+        </div>
+    </div>
+    <div class="row w-100">
+        <div class="col-12 py-3 bg-dark text-white text-center">
+            Bahía Blanca 2023. Todos los derechos reservados.
+        </div>
+    </div>
+    <script>
+        let c_titulo1="Gustavo Yañez"
+        let c_titulo2="Programador"
+
+        let c_perfil1="Edad: 44 años"
+        let c_perfil2="Fecha de Nacimiento: 1/1/1979"
+        let c_perfil3="Localidad: Bahia Blanca"
+        let c_perfil4="Nacionalidad: Argentino"
+        let c_contacto1="gustavo@micorreo.com"
+        let c_contacto2="291455444666"
+        let c_contacto3="www.gustavo.com.ar"
+        let c_contacto4="@gustavo"
+        let c_contacto5="Bahia Blanca"
+        let c_experiencia1a="1999-2000 Programador"
+        let c_experiencia1b="Hospital"
+        let c_experiencia2a="2001-2002 Programador"
+        let c_experiencia2b="Empresa"
+        let c_experiencia3a="2003-2004 Programador"
+        let c_experiencia3b="Hospital Mediano"
+        let c_experiencia4a="2005-2006 Programador"
+        let c_experiencia4b="Hospital Grande"
+        let c_educacion1a="Programador HTML"
+        let c_educacion1b="Ticmas Academy - 2023"
+        let c_educacion2a="Programador RUBY"
+        let c_educacion2b="SeProgramar 2022"
+        let c_educacion3a="Secundario"
+        let c_educacion3b="Escuela local Bahia Blanca"
+        let c_idioma1="Español Avanzado"
+        let c_idioma2="Inglés Avanzado"
+
+        document.getElementById("Titulo1").innerHTML = c_titulo1;
+        document.getElementById("Titulo2").innerHTML = c_titulo2;
+        document.getElementById("Contacto1").innerHTML = c_contacto1;
+        document.getElementById("Contacto2").innerHTML = c_contacto2;
+        document.getElementById("Contacto3").innerHTML = c_contacto3;
+        document.getElementById("Contacto4").innerHTML = c_contacto4;
+        document.getElementById("Contacto5").innerHTML = c_contacto5;
+        document.getElementById("Perfil1").innerHTML = c_perfil1;
+        document.getElementById("Perfil2").innerHTML = c_perfil2;
+        document.getElementById("Perfil3").innerHTML = c_perfil3;
+        document.getElementById("Perfil4").innerHTML = c_perfil4;
+        document.getElementById("Idioma1").innerHTML = c_idioma1;
+        document.getElementById("Idioma2").innerHTML = c_idioma2;
+        document.getElementById("Experiencia1a").innerHTML = c_experiencia1a;
+        document.getElementById("Experiencia1b").innerHTML = c_experiencia1b;
+        document.getElementById("Experiencia2a").innerHTML = c_experiencia2a;
+        document.getElementById("Experiencia2b").innerHTML = c_experiencia2b;
+        document.getElementById("Experiencia3a").innerHTML = c_experiencia3a;
+        document.getElementById("Experiencia3b").innerHTML = c_experiencia3b;
+        document.getElementById("Experiencia4a").innerHTML = c_experiencia4a;
+        document.getElementById("Experiencia4b").innerHTML = c_experiencia4b;
+        document.getElementById("Educacion1a").innerHTML = c_educacion1a;
+        document.getElementById("Educacion1b").innerHTML = c_educacion1b;
+        document.getElementById("Educacion2a").innerHTML = c_educacion2a;
+        document.getElementById("Educacion2b").innerHTML = c_educacion2b;
+        document.getElementById("Educacion3a").innerHTML = c_educacion3a;
+        document.getElementById("Educacion3b").innerHTML = c_educacion3b;
+
+
+
+    </script>
+    
+</body>
+</html>

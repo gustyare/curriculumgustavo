@@ -1,0 +1,27 @@
+.grow {
+    flex: 1;
+}
+
+.main {
+    overflow-y: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    
+}
+.infor1 {
+    background-color: navy;
+    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr.linea1{
+    float: center;
+	border-top: 1px solid #8c8b8b;
+}
+.centerImage{
+    text-align:center;
+    display:block;
+}
