@@ -1,2 +1,3 @@
 # curriculumgustavo
-Curriculum Gustavo curso ticmas
+Curriculum Gustavo Yañez
+curso ticmas academy
